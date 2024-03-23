@@ -3,9 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     
+    <header>
+        <div class="logo">
+            <img src="Untitled-2-01.png" width="60px" height="60px">
+        </div>
+        <h2 class="title" style="color: black; padding-right: 30% ">Green Hub</h2>
+        <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <button class="btnLogin">Login</button>
+            
+        </nav>
+        
+    </header>
+    <div class="wrapper" style="margin-right: -200px; margin-left: -100px">
+        <span class="icon-close">
+            <ion-icon name="close-outline"></ion-icon>
+        </span>
+        <div class="form-box login">
+            <h2> Login </h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </span>
+                        <input type="password" required>
+                        <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember Me</label>
+                    <a href="#" style="float:right;" class="forgot">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+                
+                    
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2> Registration </h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </span>
+                        <input type="password" required>
+                        <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Agree to all T&C</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+                    
+            </form>
+        </div>
+    </div> 
+    <div class="para">
+    <h2 class="heading" style="margin-right: -890px; ">Welcome to Green Hub<br><h3 style="margin-right: -400px; color:white">We the people at Green Hub aim for a conscious mind towards the sustainibility <br> nature and choices that mankind can make in order to make healthy choices towards nature and it's core.<br><a href="./content.html" style="color:white" class="learn">Learn More</a> to know about certain ways by which we would be able to protect our environment.<br> People can also share their own ideas through our contact page.<br>
+    </h3></h2>
+    
+    </div>
+    
+    <script src = "script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
